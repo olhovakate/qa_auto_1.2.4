@@ -1,0 +1,23 @@
+PS C:\Users\eolho\OneDrive\Документы\GitHub\qa_auto_1.2.4> git reset --mixed 2d5ee07
+Unstaged changes after reset:
+M       first file.md
+PS C:\Users\eolho\OneDrive\Документы\GitHub\qa_auto_1.2.4> git reset --mixed a289573
+Unstaged changes after reset:
+M       first file.md
+PS C:\Users\eolho\OneDrive\Документы\GitHub\qa_auto_1.2.4> git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 4 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   first file.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        second file.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Команда GIt RESET --mixed возвращает нас в состояния когда изменения сделаны , но они даже не добавлены в индекс,не отслеживаеемые, т.е их нужно опять кинуть в стейдж и после коммитить
