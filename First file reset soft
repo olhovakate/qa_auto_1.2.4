@@ -1,0 +1,28 @@
+PS C:\Users\eolho\OneDrive\Документы\GitHub\qa_auto_1.2.4> git reset --soft 2d5ee07
+PS C:\Users\eolho\OneDrive\Документы\GitHub\qa_auto_1.2.4> git reset --soft a289573
+PS C:\Users\eolho\OneDrive\Документы\GitHub\qa_auto_1.2.4> git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   first file.md
+        new file:   second file.md
+
+5dbfb20 (HEAD -> main) added new line at first file
+2d5ee07 add second file
+a289573 aad info at first file
+26e7d6b create first file
+429b0fa Merge branch 'main' of https://github.com/olhovakate/qa_auto_1.2.4
+f9b1ecc add info at first file
+149dac1 (origin/main, origin/HEAD) Delete third.md
+de1d644 Delete second.md
+d0076b9 Delete First.md
+fd316a5 Merge branch 'main' of https://github.com/olhovakate/qa_auto_1.2.4
+1f13a69 changes
+41bf4ee Merge branch 'main' of https://github.com/olhovakate/qa_auto_1.2.4
+7fd7b8a 2 commit first file
+caed2ce added third file
+
+Применение команды reset --soft возвращает  закомиченые изменения назад в отслеживаемые(индекс) 
