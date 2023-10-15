@@ -1,0 +1,15 @@
+PS C:\Users\eolho\OneDrive\Документы\GitHub\qa_auto_1.2.4> git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 6 and 3 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
+PS C:\Users\eolho\OneDrive\Документы\GitHub\qa_auto_1.2.4> git reset --hard 2d5ee07
+HEAD is now at 2d5ee07 add second file
+PS C:\Users\eolho\OneDrive\Документы\GitHub\qa_auto_1.2.4>
+
+PS C:\Users\eolho\OneDrive\Документы\GitHub\qa_auto_1.2.4> git reset --hard a289573
+HEAD is now at a289573 aad info at first file
+
+команда reset --hard  удалила полностью наши действия ,добавление файла, изменения в файле, команда не обратимая 
